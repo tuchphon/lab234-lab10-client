@@ -13,8 +13,8 @@ install:
 - npm run ng-deploy
 - ls -l
 script:
-- docker build -t tuchphon/htmltest .
-- docker push tuchphon/htmltest
+- docker build -t tuchphon/se234-lab10-client .
+- docker push tuchphon/se234-lab10-client
 service: docker
 env:
   global:
